@@ -29,6 +29,7 @@ public class Main {
             switch(select){
                 case 4:
                     System.out.println("Sayıyı 0 ile bölemezsiniz!");
+                    break;
             }
         }
 
