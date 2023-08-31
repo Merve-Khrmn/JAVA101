@@ -9,6 +9,7 @@ public class Main {
             sayi2=k.nextInt();
         System.out.println("Lütfen yapmak istediğiniz işlemi seçiniz\n1-toplama\n2-çıkarma\n3-çarpma\n4-bölme");
             select=k.nextInt();
+        if(n2!=0){
             switch (select){
                 case 1:
                     System.out.println("Toplam"+(sayi1+sayi2));
@@ -22,12 +23,14 @@ public class Main {
                 case 4:
                     System.out.println("Bölme"+(sayi1/sayi2));
                     break;
-
-
-
-
+         
+}
+        }else{
+            switch(select){
+                case 4:
+                    System.out.println("Sayıyı 0 ile bölemezsiniz!");
             }
-
+        }
 
     }
 }
